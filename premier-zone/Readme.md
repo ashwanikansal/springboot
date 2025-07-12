@@ -1,4 +1,3 @@
-```markdown
 # Premier Zone – Spring Boot + PostgreSQL Backend
 
 This is a backend-only project built using **Spring Boot** with a **PostgreSQL** database. It serves as a learning project to understand core Spring Boot features, REST APIs, and database integration using JPA/Hibernate.
@@ -183,3 +182,6 @@ spring.datasource.password=YOUR_PASSWORD
 ````
 
 ---
+
+# Main() ➝ Spring Boot Auto-Config ➝ REST Request ➝ Controller ➝ Service ➝ Repository ➝ PostgreSQL DB
+
