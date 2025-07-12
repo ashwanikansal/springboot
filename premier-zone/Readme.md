@@ -32,8 +32,6 @@ This is a backend-only project built using **Spring Boot** with a **PostgreSQL**
 
 ## 📁 Project Structure
 
-```
-
 premier-zone/
 ├── src/
 │   ├── main/
@@ -185,11 +183,3 @@ spring.datasource.password=YOUR_PASSWORD
 ````
 
 ---
-
-Let me know if you:
-
-* Want to Dockerize it later
-* Want to add Swagger for API testing
-* Plan to add login/auth and want to scaffold it cleanly
-
-I'll help you each time with beginner-friendly steps!
