@@ -4,7 +4,7 @@ This is a backend-only project built using **Spring Boot** with a **PostgreSQL**
 
 > ✨ You can use this as a foundation to build a full-stack project later (e.g., with React as frontend).
 
----
+
 
 ## 🚀 Features
 
@@ -14,7 +14,7 @@ This is a backend-only project built using **Spring Boot** with a **PostgreSQL**
 - Modular folder structure (entities, repositories, services, controllers)
 - Easy to extend and integrate with frontend
 
----
+
 
 ## 🛠️ Tech Stack
 
@@ -27,7 +27,7 @@ This is a backend-only project built using **Spring Boot** with a **PostgreSQL**
 | Build Tool | Maven          |
 | IDE        | IntelliJ / VS Code / Eclipse (your choice) |
 
----
+```
 
 ## 📁 Project Structure
 
@@ -45,9 +45,7 @@ premier-zone/
 ├── pom.xml
 └── README.md
 
-````
-
----
+```
 
 ## 🧑‍💻 Getting Started
 
