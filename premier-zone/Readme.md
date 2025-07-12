@@ -1,15 +1,3 @@
-Perfect — thank you for the details!
-
-You're building a **Spring Boot backend** project to **learn Spring Boot and PostgreSQL integration**. It's backend-only for now, with no authentication, no frontend, no Docker, and the goal is to **document it well for future reference** and keep it **beginner-friendly**.
-
----
-
-### ✅ Here's a full professional `README.md` for your project:
-
-You can copy-paste this into your repo as `README.md`:
-
----
-
 ```markdown
 # Premier Zone – Spring Boot + PostgreSQL Backend
 
