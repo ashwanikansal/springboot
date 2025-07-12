@@ -182,4 +182,6 @@ spring.datasource.password=YOUR_PASSWORD
 ---
 
 # Main() ➝ Spring Boot Auto-Config ➝ REST Request ➝ Controller ➝ Service ➝ Repository ➝ PostgreSQL DB
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/87c84151-7925-4166-9767-d2c332cf4aeb" />
+
 
