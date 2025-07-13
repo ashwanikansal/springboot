@@ -10,44 +10,54 @@ import java.util.stream.Collectors;
 
 @Component
 public class PlayerService {
+
     private final PlayerRepository playerRepository;
+
     @Autowired
     public PlayerService(PlayerRepository playerRepository) {
         this.playerRepository = playerRepository;
     }
+
     public List<Player> getPlayers() {
         return playerRepository.findAll();
     }
+
     public List<Player> getPlayersFromTeam(String teamName) {
         return playerRepository.findAll().stream()
                 .filter(player -> teamName.equals(player.getTeam()))
                 .collect(Collectors.toList());
     }
+
     public List<Player> getPlayersByName(String searchText) {
         return playerRepository.findAll().stream()
                 .filter(player -> player.getName().toLowerCase().contains(searchText.toLowerCase()))
                 .collect(Collectors.toList());
     }
+
     public List<Player> getPlayersByPos(String searchText) {
         return playerRepository.findAll().stream()
                 .filter(player -> player.getPos().toLowerCase().contains(searchText.toLowerCase()))
                 .collect(Collectors.toList());
     }
+
     public List<Player> getPlayersByNation(String searchText) {
         return playerRepository.findAll().stream()
                 .filter(player -> player.getNation().toLowerCase().contains(searchText.toLowerCase()))
                 .collect(Collectors.toList());
     }
+
     public List<Player> getPlayersByTeamAndPosition(String team, String position) {
         return playerRepository.findAll().stream()
                 .filter(player -> player.getTeam().toLowerCase().contains(team.toLowerCase())
                 && player.getPos().toLowerCase().contains(position.toLowerCase()))
                 .collect(Collectors.toList());
     }
+
     public Player addPlayer(Player player) {
         playerRepository.save(player);
         return player;
     }
+
     public Player updatePlayer(Player updatedPlayer) {
         Optional<Player> existingPlayer = playerRepository.findByName(updatedPlayer.getName());
 
@@ -63,6 +73,7 @@ public class PlayerService {
         }
         return null;
     }
+
     @Transactional
     public void deletePlayer(String playerName) {
         playerRepository.deleteByName(playerName);
