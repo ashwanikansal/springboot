@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="75958409-37a5-4c96-9f3e-76cd545a5dea" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/content-calendar/src/main/java/dev/ashwanikansal/content_calendar/controller/ContentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content-calendar/src/main/java/dev/ashwanikansal/content_calendar/model/Content.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content-calendar/src/main/java/dev/ashwanikansal/content_calendar/model/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content-calendar/src/main/java/dev/ashwanikansal/content_calendar/model/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content-calendar/src/main/java/dev/ashwanikansal/content_calendar/repository/ContentCollectionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/src/main/java/dev/ashwanikansal/security/config/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/src/main/java/dev/ashwanikansal/security/config/JwtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/src/main/java/dev/ashwanikansal/security/user/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/src/main/java/dev/ashwanikansal/security/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/src/main/java/dev/ashwanikansal/security/user/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content-calendar/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/content-calendar/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content-calendar/src/main/java/dev/ashwanikansal/content_calendar/ContentCalendarApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/content-calendar/src/main/java/dev/ashwanikansal/content_calendar/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content-calendar/src/test/java/dev/ashwanikansal/content_calendar/ContentCalendarApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/content-calendar/src/test/java/dev/ashwanikansal/content_calendar/ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot.excalidraw" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="30RtQMP1zytWxe5lhO0kl6rb6Q6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="75958409-37a5-4c96-9f3e-76cd545a5dea" name="Changes" comment="" />
+      <created>1753602197750</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1753602197750</updated>
+    </task>
+    <servers />
+  </component>
+</project>

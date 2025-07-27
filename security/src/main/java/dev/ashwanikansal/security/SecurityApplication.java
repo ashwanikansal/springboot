@@ -1,13 +1,13 @@
-package dev.ashwanikansal.content_calendar;
+package dev.ashwanikansal.security;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ContentCalendarApplication {
+public class SecurityApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ContentCalendarApplication.class, args);
+		SpringApplication.run(SecurityApplication.class, args);
 	}
 
 }
