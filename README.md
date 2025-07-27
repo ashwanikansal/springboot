@@ -1,5 +1,6 @@
 ## JAVA
 - **Project 1:** ticket-booking 
+- **Project 2:** web-server
 
 ## Spring Boot
 - **Project 1:** premier-Zone
